@@ -27,19 +27,13 @@ Admin Processes: Run one-off administrative tasks (like database migrations) as 
 
 By following the 12-factor principles, applications become easier to scale, deploy, and maintain.
 
-Atomic Design: A Modular Approach to UI Design
-Atomic Design is a methodology I use to create scalable and reusable design systems. It breaks the UI into five levels: Atoms, Molecules, Organisms, Templates, and Pages. This approach helps ensure modularity, flexibility, and consistency in the design process.
 
-The 5 Stages of Atomic Design
+Atomic Design is a methodology , uses to create scalable and reusable design systems. It breaks the UI into five levels: Atoms, Molecules, Organisms, Templates, and Pages. This approach helps ensure modularity, flexibility, and consistency in the design process.
+
+The 5 Stages of Atomic Design :
 Atoms (Basic Components): These are the simplest building blocks of a design, such as:
 
-Buttons
-
-Icons
-
-Input fields
-
-Text labels
+Buttons , Icons , Input fields , Text labels
 
 Molecules (Groups of Atoms): Combining atoms into functional units. For example:
 
@@ -61,18 +55,17 @@ Pages (Final Product): Fully populated templates with real content, ready for in
 
 A live blog post page filled with actual content.
 
-Applying Atomic Design
-I apply Atomic Design by starting with the smallest components (atoms) and working my way up to more complex units (molecules, organisms, templates, and finally pages). This approach ensures that each component is reusable, reducing redundancy and increasing maintainability.
+Applying Atomic Design : 
+Apply Atomic Design by starting with the smallest components (atoms) and working my way up to more complex units (molecules, organisms, templates, and finally pages). This approach ensures that each component is reusable, reducing redundancy and increasing maintainability.
 
-I also document atoms, molecules, and organisms as I create them, forming a style guide that maintains consistency across the design system.
 
-Why I Follow Atomic Design
+Why I Follow Atomic Design :
 Design Once, Reuse Forever: Breaking down components into smaller parts makes it easy to reuse them throughout the site, saving time and effort.
 
 Easy Style Guide Creation: Having a collection of atoms and molecules from the start makes it simple to create a style guide and ensures design consistency.
 
 Simplified Layouts: Atomic Design helps structure the design into manageable parts, making it easier to understand and maintain.
 
-Streamlined Prototyping: With reusable components, prototyping becomes faster. I can mix and match atoms and molecules to quickly create mockups, then refine them as needed.
+Streamlined Prototyping: With reusable components, prototyping becomes faster. Mix and match atoms and molecules to quickly create mockups, then refine them as needed.
 
 Easy Updates and Removals: Changes made to one component (atom, molecule, or organism) automatically reflect throughout the site, making updates easier and less error-prone.
