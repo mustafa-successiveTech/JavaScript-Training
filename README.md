@@ -1,3 +1,4 @@
 # JavaScript-Training
 
-12 factor
+The 12 factor app
+Atomic design
