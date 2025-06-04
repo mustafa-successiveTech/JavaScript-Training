@@ -4,7 +4,7 @@ function getUserInput() {
     const age = prompt("Enter your age:");
     const name = prompt("Enter your name:");
     const phone = prompt("Enter your phone number:");
-  
+  //
     console.log("Age:", age);
     console.log("Name:", name);
     console.log("Phone Number:", phone);
