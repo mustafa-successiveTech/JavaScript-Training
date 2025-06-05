@@ -9,5 +9,6 @@ function getUserInput() {
   console.log("Name:", name);
   console.log("Phone Number:", phone);
 }
-  
+    
 getUserInput();
+  

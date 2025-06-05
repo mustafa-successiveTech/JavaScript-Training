@@ -5,5 +5,4 @@
 function getSquare(number) {
   return number * number;
 }
-
 console.log(getSquare(6));

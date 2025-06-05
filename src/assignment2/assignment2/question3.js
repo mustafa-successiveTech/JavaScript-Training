@@ -3,5 +3,5 @@
 const firstFunction = function(func) {
   func();
 };
-  
+    
 firstFunction(() => console.log("Function passed as argument!"));

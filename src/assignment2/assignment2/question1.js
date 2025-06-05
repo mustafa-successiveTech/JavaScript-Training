@@ -10,5 +10,6 @@ function getTwoRandomNumbers() {
 
   console.log("Random numbers:", first, second);
 }
-  
+    
 getTwoRandomNumbers();
+  
