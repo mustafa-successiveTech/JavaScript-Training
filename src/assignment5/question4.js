@@ -9,17 +9,17 @@ const obj = {
 };
 
 const shallow = { ...obj };
-console.log(obj.address.city); // Refer to line 6 Delhi changes to Mumbai
+console.log(obj.address.city); 
 shallow.address.city = "Mumbai";
-console.log(obj.address.city); // Refer to line 6 Delhi changes to Mumbai
+console.log(obj.address.city); 
 
-console.log(obj.name); // Refer to line 3 , Line 7 doesn't changes it 
+console.log(obj.name); 
 shallow.name = "Doe";
-console.log(obj.name); // Refer to line 3 , Line 7 doesn't changes it 
+console.log(obj.name); 
 
-console.log(obj.arr[0][0]); // Refer to 14 
+console.log(obj.arr[0][0]); 
 shallow.arr[0][0] = 10;
-console.log(obj.arr[0][0]); // Refer to 14 
+console.log(obj.arr[0][0]); 
 
 // Solution using deepClone
 
