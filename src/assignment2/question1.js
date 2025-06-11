@@ -8,7 +8,7 @@ function getTwoRandomNumbers() {
     second = Math.floor(Math.random() * 10) + 1;
   } while (second === first);
 
-  console.log("Random numbers:", first, second);
+  console.log("Random numbers : ", first, second);
 }
     
 getTwoRandomNumbers();
