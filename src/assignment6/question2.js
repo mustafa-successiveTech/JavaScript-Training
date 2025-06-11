@@ -27,10 +27,10 @@ class Triangle extends Shape {
 };
 
 const rect = new Rectangle(10, 5);
-const rect1 = new Rectangle();
+// const rect1 = new Rectangle();
 
 console.log(rect.getArea());
-console.log(rect1.getArea());
+// console.log(rect1.getArea());
 
-// const tri = new Triangle(5, 5);
-// console.log(tri.getArea());
+const tri = new Triangle(5, 5);
+console.log(tri.getArea());
