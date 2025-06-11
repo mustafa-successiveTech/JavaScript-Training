@@ -16,13 +16,13 @@ class Rectangle extends Shape {
     console.log(this.width);
     console.log(this.height);
    
-      return this.width * this.height;
+    return this.width * this.height;
   }
 };
 
 class Triangle extends Shape {
   getArea() {
-      return 0.5 * this.width * this.height;
+    return 0.5 * this.width * this.height;
   }
 };
 
