@@ -6,10 +6,10 @@ Lodash is a popular JavaScript utility library that provides helpful methods for
 
 ## Features
 
-**Modular**: Lodash is split into smaller modules, allowing you to include only the functions you need in your project, reducing bundle size.
-**Performance**: Lodash is optimized for performance, making it an ideal choice for high-performance applications.
-**Cross-platform**: Works seamlessly in both Node.js and browser environments.
-**Comprehensive**: Lodash includes over 200 methods for dealing with arrays, objects, collections, strings, functions, and utilities.
+- **Modular**: Lodash is split into smaller modules, allowing you to include only the functions you need in your project, reducing bundle size.
+- **Performance**: Lodash is optimized for performance, making it an ideal choice for high-performance applications.
+- **Cross-platform**: Works seamlessly in both Node.js and browser environments.
+- **Comprehensive**: Lodash includes over 200 methods for dealing with arrays, objects, collections, strings, functions, and utilities.
 
 ## Installation
 
