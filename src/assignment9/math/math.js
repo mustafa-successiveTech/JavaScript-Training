@@ -8,11 +8,11 @@ create a new file index.js and just export those functions and then use those fu
 */
 
 function add(a, b) {
-    return a + b;
+  return a + b;
 }
 
 function subtract(a, b) {
-    return a - b;
+  return a - b;
 }
 
 module.exports = { add, subtract};
