@@ -9,7 +9,11 @@ Reason : myObject.property will look for property is looking for literal key pro
 
 */
    
-let myObject = { name : 'John', age: 30 };
+let myObject = { 
+    name : 'John', 
+    age: 30 
+};
+
 for (let property in myObject) {
     console.log(property + ': ' + myObject[property]);
 }

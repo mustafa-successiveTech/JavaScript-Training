@@ -1,4 +1,6 @@
-let myString = 'hello world';
+/* 
+
+4.let myString = 'hello world';
 if (myString.length > 0) {
     console.log('The length of the string is: ' + myString.length);
 } else {
@@ -11,3 +13,4 @@ if (myNumber) {
 } else {
    console.log('The value is not a number');
 }
+*/
