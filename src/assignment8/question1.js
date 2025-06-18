@@ -7,7 +7,14 @@ for (let i = 0; i <= myArray.length; i++) {
 
 * /
 
-/*for loop iteration required to be run till myArray.length - 1 as i is initialized to 0 in the beginning */
+/*
+
+Answer - >
+
+for loop iteration required to be run till myArray.length - 1 
+as i is initialized to 0 in the beginning 
+
+*/
 
 let myArray = [1, 2, 3, 4];
 for (let i = 0; i < myArray.length; i++) {

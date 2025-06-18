@@ -11,6 +11,10 @@
 // delete person.name;
 // person.getDetails();
 
+
+
+/*Answer -> Error corrected and explained below */
+
 function Person(name, age) { 
     this.name = name; 
     this.age = age; 

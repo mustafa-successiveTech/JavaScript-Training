@@ -8,6 +8,12 @@
 //     console.log(data);
 // });
 
+/* Answer -> 
+
+  Error corrected below 
+
+*/
+
 async function getData() {
   return new Promise((resolve) => {
       setTimeout(() => {

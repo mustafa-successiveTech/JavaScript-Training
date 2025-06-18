@@ -14,3 +14,10 @@ if (myNumber) {
    console.log('The value is not a number');
 }
 */
+
+
+/* Answer ->
+  
+    No error 
+
+    */

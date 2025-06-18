@@ -11,4 +11,8 @@ if (myNumber) {
   console.log('The number is undefined');
 }
 
-// Here in line 7 trying to acces array that is beyond the number of elements declared in the array
+/* Answer ->
+
+Here in line 7 trying to acces array that is beyond the number of elements declared in the array
+
+*/

@@ -10,6 +10,8 @@
 // getPersonDetails();
 
 
+/* Error corrected and describe below */
+
 var person = { 
   name: "John Doe", 
   age: 30, 
@@ -19,4 +21,5 @@ var person = {
 };
 
 person.getDetails(); 
-//this is the correction needed to done instead of upper two line as getPersonDetails is not a function
+//this is the correction needed to done instead of upper two 
+// line as getPersonDetails is not a function

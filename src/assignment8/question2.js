@@ -5,6 +5,8 @@ for (property in myObject) {
    console.log(property + ': ' + myObject.property);
 }
 
+Answer - >
+
 Reason : myObject.property will look for property is looking for literal key property
 
 */

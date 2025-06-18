@@ -10,4 +10,9 @@
 //   console.log(error);
 // });
 
-// No error in this
+
+/* Answer -> 
+
+No Error in this
+
+*/

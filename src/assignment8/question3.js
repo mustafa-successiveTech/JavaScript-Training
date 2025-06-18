@@ -12,4 +12,8 @@ console.log('The total of all elements in the array is: ' + total);
 
 */
 
-// No error in this
+/* Answer - >
+
+No error in this
+
+*/
