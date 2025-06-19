@@ -10,6 +10,8 @@ class RateLimiter {
 
   enqueue(taskFn) {
     return new Promise((resolve, reject) => {
+      console.log("Before runTask");
+      
       const runTask = () => {
         this.activeCount++;
         taskFn()
@@ -34,7 +36,6 @@ class RateLimiter {
   }
 }
 
-// Simulate an async task
 function createTask(id, delay) {
   return () => new Promise((resolve) => {
     console.log(`Task ${id} started`);
@@ -45,9 +46,8 @@ function createTask(id, delay) {
   });
 }
 
-// Use the RateLimiter
-const limiter = new RateLimiter(2); // Only 2 tasks can run at once
+const limiter = new RateLimiter(2); 
 
 for (let i = 1; i <= 5; i++) {
-  limiter.enqueue(createTask(i, 5000));
+  limiter.enqueue(createTask(i, 1000));
 }
