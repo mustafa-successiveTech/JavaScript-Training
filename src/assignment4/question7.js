@@ -5,12 +5,13 @@ let seen = new Map();
 let duplicateIndices = [];
 
 arr.forEach((val, index) => {
-if (seen.has(val)) {
-  duplicateIndices.push(index);
-} else {
-  seen.set(val, index);
-}
-});
+  if (seen.has(val)) {
+      duplicateIndices.push(index);
+    } else {
+      seen.set(val, index);
+    }
+  }
+);
 
 console.log(arr);
 console.log(duplicateIndices); 

@@ -9,19 +9,18 @@
 */
 
 function fetchData() {
-    return new Promise((resolve, reject) => {
-        try {
-            setTimeout(() => {
-                resolve("Data fetched successfully");
-            }, 1000);
-            console.log("SetTimeout is executing");       
-        } catch {
-            reject("Data fetched failed");
-        }        
-    });
+  return new Promise((resolve, reject) => {
+      try {
+          setTimeout(() => {
+              resolve("Data fetched successfully");
+          }, 1000);
+          console.log("SetTimeout is executing");       
+      } catch {
+          reject("Data fetched failed");
+      }        
+  });
 }
 
 fetchData()
-    .then(data => console.log(data))
-    .catch(error => console.log(error)
-    );
+  .then(data => console.log(data))
+  .catch(error => console.log(error));
